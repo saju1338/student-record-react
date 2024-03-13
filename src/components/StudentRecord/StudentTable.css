@@ -1,0 +1,28 @@
+/* StudentTable.css */
+.cds--data-table-container{
+  width: 100%;
+}
+table{
+  border-collapse: collapse;
+    border-spacing: 0;
+    inline-size: 100%;
+}
+thead th {
+  background-color: #e0e0e0;
+  color: #161616
+}
+
+tbody tr {
+  border: none;
+    block-size: 3rem;
+    inline-size: 100%;
+}
+tbody tr td {
+  transition:background-color 70ms cubic-bezier(0,0,.38,.9);
+  color:#525252;
+  text-align: center;
+    border: 1px solid;
+    background-color: #f3f0f0;
+}
+
+

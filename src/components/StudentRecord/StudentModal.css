@@ -1,0 +1,39 @@
+/* Custom Modal CSS */
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width:-webkit-fill-available;
+}
+
+.custom-modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.custom-modal-content {
+  margin-bottom: 20px;
+}
+
+.custom-modal-footer {
+  text-align: center;
+}
+
+.custom-modal-button {
+  margin-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: #0f62fe;
+    color: #ffffff;
+    width: 25%;
+    height: 41px;
+    font-size: 17px;
+}
